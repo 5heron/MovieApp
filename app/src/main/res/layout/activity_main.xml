@@ -18,13 +18,21 @@
         android:textColor="#aabbcc"
         android:textStyle="bold"
         />
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:foreground="@drawable/ic_launcher_foreground"
+        android:background="@drawable/baseline_adjust_24" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
         <LinearLayout
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="80dp"
             android:layout_marginHorizontal="50dp"
             android:background="#C7D2E4"
             android:orientation="horizontal"
