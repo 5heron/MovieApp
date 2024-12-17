@@ -2,17 +2,85 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4C7AA9"
+    android:background="#245589"
+    android:id="@+id/main"
     android:padding="5dp"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
         android:gravity="center"
-        android:background="#B4265F"
-        android:textSize="20dp"
+        android:background="#ABAB8530"
+        android:textSize="20sp"
         android:textColor="#aabbcc"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="200dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="#C7D2E4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A8C2E2"
+                android:textSize="20sp"
+                android:paddingRight="20dp"
+                android:text="Username" />
+
+            <EditText
+                android:id="@+id/uname"
+                android:drawableLeft="@drawable/baseline_account_circle_24"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#050D16"
+                android:hint="Enter the username" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="#C7D2E4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A8C2E2"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/password"
+                android:drawableLeft="@drawable/baseline_adjust_24"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#050D16"
+                android:hint="Enter the Password" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_margin="30dp"
+            android:background="#D6D97B09"
+            android:textColor="#0A2540"/>
+    </LinearLayout>
 
 </LinearLayout>
