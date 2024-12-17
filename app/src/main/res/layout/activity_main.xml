@@ -2,7 +2,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#245589"
+    android:background="@drawable/background"
     android:id="@+id/main"
     android:padding="5dp"
     android:orientation="vertical"
@@ -25,7 +25,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:foreground="@drawable/ic_launcher_foreground"
-        android:background="@drawable/baseline_adjust_24" />
+        android:background="#618CB6" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
